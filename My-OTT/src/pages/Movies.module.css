@@ -5,6 +5,7 @@
   /* Netflix-like black */
   color: #fff;
   text-align: center;
+  flex-wrap: wrap;
   /* Text color for better contrast */
 }
 
