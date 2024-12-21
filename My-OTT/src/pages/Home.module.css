@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Audiowide', sans-serif;
+  background: #000;
+  color: white;
+}
+
+.homeContainer {
+  padding: 2rem;
+  background-color: #141414;
+  /* Netflix black */
+  color: #fff;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  color: #00e0ff;
+  /* Netflix red */
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.5rem;
+}

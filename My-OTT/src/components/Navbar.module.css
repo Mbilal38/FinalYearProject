@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Merriweather', serif;
+  background: #000;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414; /* Netflix black */
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem; /* Reduce space below the navbar */
+}
+
+.logo {
+  font-family: 'Audiowide', sans-serif;
+  color: #00e0ff;
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  border: 2px solid #00e0ff; /* Add border to navLinks */
+  padding: 0.5rem; /* Add padding for better appearance */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.navLinks li a {
+  color: #00e0ff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navLinks li a:hover {
+  color: #0f8;
+  transform: scale(1.3);
+}

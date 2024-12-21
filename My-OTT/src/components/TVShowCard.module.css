@@ -1,0 +1,40 @@
+.tvShowCard {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.tvShowCard:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.details {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+}
+
+.details h4,
+h5 {
+  color: #E50914;
+}
+
+.details ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.details ul li {
+  color: #fff;
+  margin: 0.5rem 0;
+}

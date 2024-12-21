@@ -1,0 +1,19 @@
+.movieCard {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.movieCard:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,23 @@
+/* TVShowsPage.module.css */
+.tvShowsPage {
+  padding: 2rem;
+  background-color: #141414;
+  /* Netflix-like black */
+  color: #fff;
+  text-align: center;
+  /* Text color for better contrast */
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* Responsive grid */
+  gap: 1.5rem;
+  /* Space between cards */
+}
+
+h1 {
+  color: #E50914;
+  /* Netflix red */
+  margin-bottom: 1.5rem;
+}
